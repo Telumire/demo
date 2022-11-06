@@ -236,7 +236,7 @@ Error message and password prompt
 </noscript>
 <!--~~ Ordinary tiddlers ~~-->
 <script class="tiddlywiki-tiddler-store" type="application/json">[
-{"created":"20221106221704398","title":"$:/config/AutoSave","text":"no","modified":"20221106222044765"},
+{"created":"20221106221704398","title":"$:/config/AutoSave","text":"no","modified":"20221106222715585"},
 {"title":"$:/config/OfficialPluginLibrary","tags":"$:/tags/PluginLibrary","url":"https://tiddlywiki.com/prerelease/library/v5.2.4/index.html","caption":"{{$:/language/OfficialPluginLibrary}} (Prerelease)","text":"The prerelease version of the official ~TiddlyWiki plugin library at tiddlywiki.com. Plugins, themes and language packs are maintained by the core team.\n"},
 {"created":"20221105213026534","text":"show","title":"$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home","modified":"20221105213026534"},
 {"created":"20221105221227481","text":"yes","title":"$:/config/RelinkOnRename","modified":"20221105221227481"},
@@ -276,7 +276,7 @@ Error message and password prompt
 {"created":"20221105221032933","text":"\u003Cdetails open>\n\u003Csummary>Summary of Tiddler A\u003C/summary>\n\nThe details of Tiddler A here\n\u003C/details>","tags":"","title":"Tiddler A","modified":"20221105221127900"},
 {"created":"20221105221041348","text":"\u003Cdetails open>\n\u003Csummary>Summary of Tiddler B\u003C/summary>\n\nThe details of Tiddler B here\n\u003C/details>","tags":"","title":"Tiddler B","modified":"20221105221138271"},
 {"created":"20221105211431249","text":"\u003C$checkbox tiddler=\"Toggle details element with css\" tag=\"$:/tags/Stylesheet\">Toggle open\u003C/$checkbox>\n\n\u003Cdetails open>\n\u003Csummary>Summary\u003C/summary>\n\nThe details here\n\u003C/details>","tags":"","title":"Toggle details","modified":"20221105221245696","toggle":"open"},
-{"created":"20221105210501672","text":"details[open]:not([open=\"\"]) {\n     display:contents;\n     font-size: 0;\n     line-height: 0;\n}\ndetails > summary {\n     list-style:none;\n     font-size:initial;\n     line-height:initial;\n}\ndetails>summary:is(::marker,::-webkit-details-marker){\n     display:none \n}\nsummary::before{\n     content:\"▸\";\n     font-size:15pt;\n}","creator":"Telumire","tags":"$:/tags/Stylesheet","title":"Toggle details element with css","modified":"20221106222038870","modifier":"Telumire","code-body":""}
+{"created":"20221105210501672","text":"details[open]:not([open=\"\"]) {\n     display:contents;\n     font-size: 0;\n     line-height: 0;\n}\ndetails > summary {\n     list-style:none;\n     font-size:initial;\n     line-height:initial;\n}\ndetails>summary:is(::marker,::-webkit-details-marker){\n     display:none \n}\n\nsummary::before{\n     content:'▾';\n     font-size:15pt;\n}\n\ndetails[open]>summary::before{\n     content:'▸';    \n}","creator":"Telumire","tags":"$:/tags/Stylesheet","title":"Toggle details element with css","modified":"20221106222712426","modifier":"Telumire","code-body":""}
 ]</script><div id="storeArea" style="display:none;"></div>
 <!--~~ Library modules ~~-->
 <div id="libraryModules" style="display:none;">
